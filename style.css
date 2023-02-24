@@ -1,0 +1,92 @@
+body{
+    background-image: url("https://media4.giphy.com/media/dWekZnK0pKn0gdlvDK/giphy.gif");
+    background-position: center;
+}
+section{
+    padding: 10px 10px ;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+form{
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 20px 20px;
+    height: 53vh;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+form div {
+    padding: 30px 20px;
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+form h3{
+    color: black;
+    font-weight: bold;
+}
+form span {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+form button{
+    height: 45px;
+    font-size: 20px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: all ease-in-out 0.3s;
+}
+form button:hover{
+    background-color: white;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: bold;
+}
+form input{
+    padding: 10px;
+    height: 40px;
+    width: 45%;
+}
+.second{
+    padding: 30px 40px;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 30vh;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.second h2{
+    font-weight: 500;
+}
+
+.second p {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
